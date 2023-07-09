@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+{% include "dochead.html" %}
+<body>
+
+{% include "header.html" %}
+
+|...combatants<br>
+Click just right of the field to input text there.<br>
+<br>
+|......district 1<br>
+<br>
+COMBATANT 1-A<br>
+|...FULL NAME: <input type="text" id="c1Afnamein" value="Sorry Nothing"><br>
+|...NICKNAME: <input type="text" id="c1Anamein" value="S. Nothing"><br>
+|...PRONOUNS (templates: <a href="">he</a> - <a href="">she</a> - <a href="">they</a> - <a href="">it</a>)<br>
+|......SBJ. PRS. PRONOUN: <input type="text" id="c1Apr1in" value="it"><br>
+|......OBJ. PRS. PRONOUN: <input type="text" id="c1Apr2in" value="it"><br>
+|......SBJ. POS. PRONOUN: <input type="text" id="c1Apr3in" value="its"><br>
+|......OBJ. POS. PRONOUN: <input type="text" id="c1Apr4in" value="its"><br>
+|...........RFL. PRONOUN: <input type="text" id="c1Apr5in" value="itself"><br>
+<br>
+COMBATANT 1-B<br>
+|...FULL NAME: <input type="text" id="c1Bfnamein" value="Sorry Nothing"><br>
+|...NICKNAME: <input type="text" id="c1Bnamein" value="S. Nothing"><br>
+|...PRONOUNS (templates: <a href="">he</a> - <a href="">she</a> - <a href="">they</a> - <a href="">it</a>)<br>
+|......SBJ. PRS. PRONOUN: <input type="text" id="c1Bpr1in" value="it"><br>
+|......OBJ. PRS. PRONOUN: <input type="text" id="c1Bpr2in" value="it"><br>
+|......SBJ. POS. PRONOUN: <input type="text" id="c1Bpr3in" value="its"><br>
+|......OBJ. POS. PRONOUN: <input type="text" id="c1Bpr4in" value="its"><br>
+|...........RFL. PRONOUN: <input type="text" id="c1Bpr5in" value="itself"><br>
+<br>
+<a onclick="alertFunc()"> > Submit Changes < </a><br>
+<br>
+<a href="../home"> > Return to home (REMEMBER TO SUBMIT YOUR CHANGES) < </a><br>
+<br>
+</p>
+
+<script>
+function alertFunc() {
+    alert("Hey! Submitting your changes here means storing some cookies onto the browser. Some people don't like that kind of thing, so only press the button again if you're sure you want cookies stored.");
+}
+</script>
+
+</body>
+</html>
